@@ -1,3 +1,5 @@
+package pack;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,11 +15,9 @@ public class execute {
     @Test
     public void user_is_on_Home_Page() {
         // Write code here that turns the phrase above into concrete actions
-        System.setProperty("webdriver.chrome.driver","..\\..\\resources\\chromedriver3.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\maazakhan\\IdeaProjects\\14April19\\src\\main\\resources\\chromedriver3.exe");
         driver = new ChromeDriver();
         driver.get("https://www.web.brainxq.com/signin");
-
-
 
         driver.findElement(By.id("mat-input-0")).sendKeys("maazakhan@folio3.com");
         driver.findElement(By.id("mat-input-1")).sendKeys("asdfasdf");
