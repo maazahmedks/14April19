@@ -66,7 +66,9 @@
             <configuration>
                 <source>11.0.2</source>
 		<target>11.0.2</target>
-		<encoding>UTF-8</encoding>
+		<verbose>true</verbose>
+		<fork>true</fork>
+		<executable>C:\Program Files\Java\jdk1.7.0_79\bin\javac</executable>
             </configuration>
         </plugin>
                  <plugin>
